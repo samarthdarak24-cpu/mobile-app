@@ -5,6 +5,9 @@ on:
     branches: [ main, master ]
   workflow_dispatch:
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build:
     name: Build APK
@@ -23,12 +26,11 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.29.3'
           channel: 'stable'
           cache: true
 
-      - name: Flutter doctor
-        run: flutter doctor -v
+      - name: Flutter version
+        run: flutter --version
 
       - name: Get dependencies
         run: flutter pub get
