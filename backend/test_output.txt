@@ -1,0 +1,38 @@
+{
+  "title": "Python in 5 Minutes: Your Friendly Coding Start!",
+  "explanation": "Python is one of the most popular and beginner-friendly programming languages in the world. Think of it as a set of instructions you give to a computer to make it do something. What makes Python so great for beginners is its clear, easy-to-read syntax – it often looks a lot like regular English! It's incredibly versatile, used for building websites, developing software, analyzing data, automating tasks, and even creating games. Learning Python opens up a world of possibilities for problem-solving and creation.",
+  "example": "Let's look at your very first piece of Python code:\n\nprint(\"Hello, Python!\")\n\nHere's what's happening:\n*   `print()` is a special Python function that tells the computer to display whatever is inside the parentheses `()` on the screen.\n*   `\"Hello, Python!\"` is a piece of text (called a 'string') that we want to display. The quotation marks `\"` tell Python it's text.\nWhen you run this code, your computer will simply show: `Hello, Python!`",
+  "summary": "Python is a popular, easy-to-learn programming language known for its clear syntax and versatility. It's used everywhere from web development to data analysis, and the `print()` function is your first step to making your computer talk!",
+  "quizQuestions": [
+    {
+      "question": "What is Python primarily known as?",
+      "options": [
+        "A) A type of snake",
+        "B) A programming language",
+        "C) A video game",
+        "D) A web browser"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "question": "What makes Python particularly good for beginners?",
+      "options": [
+        "A) It's very complex",
+        "B) It has a clear and easy-to-read syntax",
+        "C) It only works on specific computers",
+        "D) It's expensive to use"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "question": "What does the `print()` function do in Python?",
+      "options": [
+        "A) Creates a document",
+        "B) Displays text or values on the screen",
+        "C) Saves a file",
+        "D) Calculates a number"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+const mongoose = require('mongoose');
+
+const userSchema = new mongoose.Schema({
+  name: { type: String, required: true },
+  email: { type: String, required: true, unique: true },
+  password: { type: String, required: true },
+  profilePicture: { type: String, default: '' },
+  totalXP: { type: Number, default: 0 },
+  level: { type: Number, default: 1 },
+  currentStreak: { type: Number, default: 0 },
+  longestStreak: { type: Number, default: 0 },
+  lastLearningDate: { type: Date, default: null }
+}, {
+  timestamps: true
+});
+
+module.exports = mongoose.model('User', userSchema);
