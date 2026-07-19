@@ -1,76 +1,102 @@
-# AI Micro-Learning App
+# 📱 Mobile App - Flutter/Dart Application
 
-A Flutter application with Node.js backend for AI-powered micro-learning experiences.
+<div align="center">
+
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+
+**Cross-platform mobile application built with Flutter**
+
+</div>
+
+---
+
+## 📋 Overview
+
+A modern, feature-rich mobile application built using Flutter and Dart, providing a seamless cross-platform experience for both iOS and Android devices.
+
+---
+
+## ✨ Key Features
+
+- 📱 **Cross-Platform** - Single codebase for iOS and Android
+- 🎨 **Beautiful UI** - Material Design and Cupertino widgets
+- ⚡ **High Performance** - Native-like performance
+- 🔔 **Push Notifications** - Real-time updates
+- 💾 **Offline Support** - Works without internet
+- 🔐 **Secure Authentication** - User login and authorization
+- 📊 **Data Synchronization** - Cloud sync capabilities
+- 🌐 **REST API Integration** - Backend connectivity
+
+---
+
+## 🛠️ Technology Stack
+
+**Language:** Dart  
+**Framework:** Flutter  
+**State Management:** Provider/Bloc  
+**Backend API:** REST/GraphQL  
+**Local Storage:** SQLite/Hive
+
+---
 
 ## 🚀 Quick Start
 
-### Backend (Already Running)
-```bash
-docker-compose up -d
-```
-Backend API: http://localhost:5000
+### Prerequisites
+- Flutter SDK 3.0+
+- Dart 2.17+
+- Android Studio / Xcode
 
-### Frontend Development
+### Installation
+
 ```bash
+git clone https://github.com/samarthdarak24-cpu/mobile-app.git
+cd mobile-app
+
+# Install dependencies
 flutter pub get
+
+# Run on emulator/device
 flutter run
 ```
 
-## 📱 Build APK (Cloud Build)
+### Build APK
 
-This project uses GitHub Actions to build APKs automatically, bypassing local security restrictions.
+```bash
+flutter build apk --release
+```
 
-### Setup:
+---
 
-1. **Create GitHub Repository**
-2. **Push code:**
-   ```bash
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin YOUR_GITHUB_REPO_URL
-   git push -u origin main
-   ```
+## 📱 Platform Support
 
-3. **Download APK:**
-   - Go to GitHub → Actions tab
-   - Click on "Build Android APK" workflow
-   - Download artifacts (APK files)
+- ✅ Android 5.0+
+- ✅ iOS 11.0+
+- ✅ Responsive design for all screen sizes
 
-## 📦 Available Builds
+---
 
-GitHub Actions automatically builds:
-- ✅ Android APK (arm64-v8a, armeabi-v7a, x86_64, universal)
-- ✅ Web App (deployed to GitHub Pages)
+## 🎯 Features Included
 
-## 🔧 Tech Stack
+- User authentication
+- Profile management
+- Real-time data updates
+- Local data persistence
+- Network connectivity handling
+- Error handling and logging
 
-- **Frontend**: Flutter 3.24+
-- **Backend**: Node.js + Express
-- **Database**: MongoDB Atlas
-- **AI**: Google Gemini API
-- **Deployment**: Docker + GitHub Actions
+---
 
-## 📱 Install APK on Phone
+## 👨‍💻 Developer
 
-1. Download APK from GitHub Actions artifacts
-2. Transfer to phone
-3. Enable "Install from Unknown Sources"
-4. Install and run!
+**Samarth Darak**  
+Computer Engineering Student @ VIT Pune  
+GitHub: [@samarthdarak24-cpu](https://github.com/samarthdarak24-cpu)
 
-## 🌐 Web Version
+---
 
-After pushing to GitHub, web version will be available at:
-`https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/`
+<div align="center">
 
-## 🔗 API Endpoints
+⭐ **Star this repo for Flutter development!**
 
-- `GET /` - Health check
-- `POST /api/auth/register` - Register user
-- `POST /api/auth/login` - Login user
-- `GET /api/lesson/*` - Lesson management
-- `GET /api/revision/*` - Revision system
-
-## 📄 License
-
-MIT
+</div>
